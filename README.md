@@ -1,4 +1,4 @@
-# KeyboardMaestroShared
+# Keyboard Maestro - Shared Macros
 
 ## About this repo
 [Keyboard Maestro](https://www.keyboardmaestro.com/main/) is a fantastic productivity tool for Macs, letting you customize the hell out of your machine. 
