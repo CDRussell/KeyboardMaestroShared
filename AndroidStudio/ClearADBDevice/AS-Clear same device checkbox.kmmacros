@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>566926330.44123101</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>Run</string>
+							<string>Edit Configurations...</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.google.android.studio</string>
+							<key>Name</key>
+							<string>Android Studio Preview</string>
+							<key>NewFile</key>
+							<string>/Applications/Android Studio Preview.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+					<dict>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>0.6</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ButtonConditionSelectionType</key>
+									<string>Is</string>
+									<key>ButtonConditionType</key>
+									<string>IsOn</string>
+									<key>ButtonTitle</key>
+									<string>Use same device for future launches</string>
+									<key>ConditionType</key>
+									<string>Button</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ButtonName</key>
+								<string>Use same device for future launches</string>
+								<key>MacroActionType</key>
+								<string>PressButton</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>KeyCode</key>
+						<integer>36</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>566926353.31296098</real>
+				<key>ModificationDate</key>
+				<real>567091253.88624501</real>
+				<key>Name</key>
+				<string>Clear same device checkbox</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>2</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6400</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>72E8E9FA-1277-4C8B-BDED-EA33644D4830</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Android Studio</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.google.android.studio</string>
+					<key>Name</key>
+					<string>Android Studio Preview</string>
+					<key>NewFile</key>
+					<string>/Applications/Android Studio Preview.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>0090E40B-068C-4F55-B211-E673EC936D93</string>
+		<key>UID</key>
+		<string>1D374965-0670-4549-9371-C696DCD7F69A</string>
+	</dict>
+</array>
+</plist>
