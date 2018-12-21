@@ -12,4 +12,4 @@ To import, use the File menu inside the `Keyboard Maestro`, and choose `Import M
 
 This will allow you to select a `*.kmmacros` file and import it. It will be disabled by default inside KM, so you'll need to enable it before it'll work.
 
-Also, it'll come with the keyboard shortcut keys I've used embedded in it, so you'll probably want to edit that in KM UI to suit yourself.
+Also, it'll come with the keyboard shortcut keys I've used embedded in it, so you'll probably want to edit that in KeyboardMaestro after you've imported it.
