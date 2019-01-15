@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>568661688.96807504</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ButtonName</key>
+						<string>Git Flow</string>
+						<key>MacroActionType</key>
+						<string>PressButton</string>
+					</dict>
+					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ButtonConditionSelectionType</key>
+									<string>Is</string>
+									<key>ButtonConditionType</key>
+									<string>Exists</string>
+									<key>ButtonTitle</key>
+									<string>Start a New Release</string>
+									<key>ConditionType</key>
+									<string>Button</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>PauseUntil</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ButtonName</key>
+						<string>Start a New Release</string>
+						<key>MacroActionType</key>
+						<string>PressButton</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>568661704.66089404</real>
+				<key>ModificationDate</key>
+				<real>568819637.38251603</real>
+				<key>Name</key>
+				<string>Start Release</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>15</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6656</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>6E745323-EA73-4CB5-BD3D-30F5891A302E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sourcetree</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.torusknot.SourceTreeNotMAS</string>
+					<key>Name</key>
+					<string>Sourcetree</string>
+					<key>NewFile</key>
+					<string>/Applications/Sourcetree.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>76927FBF-5C01-43F3-8FC1-E74D0944D527</string>
+		<key>UID</key>
+		<string>2A65E47C-288F-4EFB-8708-B4FD87F40B77</string>
+	</dict>
+</array>
+</plist>

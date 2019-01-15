@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>568661688.96807504</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>Actions</string>
+							<string>Resolve Conflicts</string>
+							<string>Launch External Merge Tool</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>568743890.45289195</real>
+				<key>ModificationDate</key>
+				<real>568819626.77849495</real>
+				<key>Name</key>
+				<string>Resolve Conflict</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>8</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6656</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>72CE0B54-257F-424D-BF60-CF62492178E2</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sourcetree</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.torusknot.SourceTreeNotMAS</string>
+					<key>Name</key>
+					<string>Sourcetree</string>
+					<key>NewFile</key>
+					<string>/Applications/Sourcetree.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>76927FBF-5C01-43F3-8FC1-E74D0944D527</string>
+		<key>UID</key>
+		<string>2A65E47C-288F-4EFB-8708-B4FD87F40B77</string>
+	</dict>
+</array>
+</plist>
